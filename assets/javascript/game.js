@@ -34,15 +34,6 @@ function start(){
 	hangman();
 }
 
-// function pickedvegetable(){
-// 	computerRandomNumber = Math.floor(Math.random()*vegetables.length);
-// 	computerGuess = vegetables[computerRandomNumber];
-	// document.getElementById('mainPage').style.display = "none";
-// 	document.getElementById('gamePage').style.display = "block";
-// 	document.getElementById('categoryName').innerHTML = "Vegetable";
-// 	hangman();
-// }
-
 var onLoad = function() {
 
 	game();
@@ -168,12 +159,6 @@ function startClickFunction(){
 	var image = c[0];
 	image.setAttribute('src', 'assets/images/hangwons.gif');
 
-
-	// if(document.getElementById('categoryName').innerHTML === "Vegetable")
-	// 	pickedvegetable();
-	// else
-	// 	pickedfruit();
-	// hangman();
 }
 
 
