@@ -21,14 +21,12 @@ var computerGuess="";
 
 
 function game(){
-	// document.getElementById('mainPage').style.display = "block";
 	document.getElementById('gamePage').style.display = "block";
 }
 
 function start(){
 	computerRandomNumber = Math.floor(Math.random()*genres.length);
 	computerGuess = genres[computerRandomNumber];
-	// document.getElementById('mainPage').style.display = "none";
 	document.getElementById('gamePage').style.display = "block";
 	document.getElementById('categoryName').innerHTML = "Music Genre";
 	hangman();
